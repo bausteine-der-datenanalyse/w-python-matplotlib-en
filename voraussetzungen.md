@@ -1,2 +1,2 @@
-- Grundlagen Python
-- Einbinden von zusätzlichen Paketen
+- Python basics
+- Importing additional packages

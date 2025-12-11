@@ -1,3 +1,3 @@
-- Einleitung: wie visualisiere ich Daten in Python
-- Anpassen von Plots
-- Do's & Dont's für wissenschaftliche Plots
+- Introduction: how to visualize data in Python
+- Customizing plots
+- Do's & Don'ts for scientific plots
