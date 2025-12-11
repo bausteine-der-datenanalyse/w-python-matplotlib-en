@@ -14,7 +14,7 @@
     "href": "index.html#voraussetzungen",
     "title": "Anwendungsbaustein - Auswertung von fds-Daten",
     "section": "Voraussetzungen",
-    "text": "Voraussetzungen\n\nGrundlagen Python\nEinbinden von zusätzlichen Paketen",
+    "text": "Voraussetzungen\n\nPython basics\nImporting additional packages",
     "crumbs": [
       "Preamble"
     ]
@@ -44,7 +44,7 @@
     "href": "index.html#lernziele",
     "title": "Anwendungsbaustein - Auswertung von fds-Daten",
     "section": "Lernziele",
-    "text": "Lernziele\n\nEinleitung: wie visualisiere ich Daten in Python\nAnpassen von Plots\nDo’s & Dont’s für wissenschaftliche Plots",
+    "text": "Lernziele\n\nIntroduction: how to visualize data in Python\nCustomizing plots\nDo’s & Don’ts for scientific plots",
     "crumbs": [
       "Preamble"
     ]
