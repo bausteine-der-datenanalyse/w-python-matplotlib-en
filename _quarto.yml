@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Anwendungsbaustein - Auswertung von fds-Daten"
+  title: "Matplotlib Tool Module"
   author:
     - Lukas Arnold
     - Simone Arnold
@@ -12,9 +12,9 @@ book:
     - Maik Poetzsch
     - Sebastian Seipel
   date: today
-  language: de-DE
+  language: en-US
   downloads: [pdf]
-  repo-url: "https://github.com/bausteine-der-datenanalyse/a-auswertung_fds_daten"
+  repo-url: "https://github.com/bausteine-der-datenanalyse/w-python-matplotlib-en"
   repo-actions: [source]
 
 bibliography: skript/references.bib
@@ -36,6 +36,3 @@ profile:
   default: full
   group: 
     - [full, klausur]
-
-
-
