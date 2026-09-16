@@ -155,7 +155,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preamble</span></a>
+ <span class="menu-text">Matplotlib Tool Module</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -234,7 +234,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="line-plots-plt.plot" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="line-plots-plt.plot"><span class="header-section-number">2.1</span> 1. Line plots (<code>plt.plot()</code>)</h2>
 <p>Line plots are excellent for visualizing trends over time.</p>
-<div id="79f0ec95" class="cell" data-execution_count="1">
+<div id="db47b190" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -250,7 +250,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="basic_plot_types_files/figure-html/cell-2-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="basic_plot_types_files/figure-html/cell-2-output-1.png" width="610" height="451" class="figure-img"></p>
 </figure>
 </div>
 </div>
@@ -259,7 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="scatter-plots-plt.scatter" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="scatter-plots-plt.scatter"><span class="header-section-number">2.2</span> 2. Scatter Plots (<code>plt.scatter()</code>)</h2>
 <p>Scatter plots are used to show relationships between two variables.</p>
-<div id="bd29aff9" class="cell" data-execution_count="2">
+<div id="90dbc0c7" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.random.rand(<span class="dv">50</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.random.rand(<span class="dv">50</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -271,7 +271,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="basic_plot_types_files/figure-html/cell-3-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="basic_plot_types_files/figure-html/cell-3-output-1.png" width="590" height="451" class="figure-img"></p>
 </figure>
 </div>
 </div>
@@ -280,7 +280,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="bar-plots-plt.bar" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="bar-plots-plt.bar"><span class="header-section-number">2.3</span> 3. Bar plots (<code>plt.bar()</code>)</h2>
 <p>Bar plots are suitable for representing categorical data.</p>
-<div id="e2342714" class="cell" data-execution_count="3">
+<div id="a2281272" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>categories <span class="op">=</span> [<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'C'</span>, <span class="st">'D'</span>]</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>values <span class="op">=</span> [<span class="dv">3</span>, <span class="dv">7</span>, <span class="dv">1</span>, <span class="dv">5</span>]</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -292,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="basic_plot_types_files/figure-html/cell-4-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="basic_plot_types_files/figure-html/cell-4-output-1.png" width="577" height="451" class="figure-img"></p>
 </figure>
 </div>
 </div>
@@ -301,7 +301,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="histograms-plt.hist" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="histograms-plt.hist"><span class="header-section-number">2.4</span> 4. Histograms (<code>plt.hist()</code>)</h2>
 <p>Histograms show the distribution of numerical data.</p>
-<div id="0aa3f36f" class="cell" data-execution_count="4">
+<div id="993b6057" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> np.random.randn(<span class="dv">1000</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>plt.hist(data, bins<span class="op">=</span><span class="dv">30</span>, color<span class="op">=</span><span class="st">'purple'</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Value'</span>)</span>
@@ -311,7 +311,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="basic_plot_types_files/figure-html/cell-5-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="basic_plot_types_files/figure-html/cell-5-output-1.png" width="585" height="451" class="figure-img"></p>
 </figure>
 </div>
 </div>
@@ -320,20 +320,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="box-plots-plt.boxplot" class="level2" data-number="2.5">
 <h2 data-number="2.5" class="anchored" data-anchor-id="box-plots-plt.boxplot"><span class="header-section-number">2.5</span> 5. Box Plots (<code>plt.boxplot()</code>)</h2>
 <p>Box plots help visualize outliers and data distribution.</p>
-<div id="530a7587" class="cell" data-execution_count="5">
+<div id="7ba23660" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> [np.random.randn(<span class="dv">100</span>) <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">4</span>)]</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>plt.boxplot(data, labels<span class="op">=</span>[<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'C'</span>, <span class="st">'D'</span>])</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>plt.boxplot(data, tick_labels<span class="op">=</span>[<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'C'</span>, <span class="st">'D'</span>])</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Value'</span>)</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Box Plot'</span>)</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>/tmp/ipykernel_3862/3930898833.py:2: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
-  plt.boxplot(data, labels=['A', 'B', 'C', 'D'])</code></pre>
-</div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="basic_plot_types_files/figure-html/cell-6-output-2.png" class="img-fluid figure-img"></p>
+<p><img src="basic_plot_types_files/figure-html/cell-6-output-1.png" width="588" height="432" class="figure-img"></p>
 </figure>
 </div>
 </div>
@@ -342,16 +338,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="heatmaps-plt.imshow" class="level2" data-number="2.6">
 <h2 data-number="2.6" class="anchored" data-anchor-id="heatmaps-plt.imshow"><span class="header-section-number">2.6</span> 6. Heatmaps (<code>plt.imshow()</code>)</h2>
 <p>Heatmaps are useful for displaying 2D data.</p>
-<div id="d3c9e8f0" class="cell" data-execution_count="6">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> np.random.rand(<span class="dv">10</span>, <span class="dv">10</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>plt.imshow(data, cmap<span class="op">=</span><span class="st">'coolwarm'</span>, interpolation<span class="op">=</span><span class="st">'nearest'</span>)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Heatmap'</span>)</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="93d54b78" class="cell" data-execution_count="6">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> np.random.rand(<span class="dv">10</span>, <span class="dv">10</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>plt.imshow(data, cmap<span class="op">=</span><span class="st">'coolwarm'</span>, interpolation<span class="op">=</span><span class="st">'nearest'</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Heatmap'</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="basic_plot_types_files/figure-html/cell-7-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="basic_plot_types_files/figure-html/cell-7-output-1.png" width="482" height="432" class="figure-img"></p>
 </figure>
 </div>
 </div>

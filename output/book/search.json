@@ -4,49 +4,49 @@
     "href": "index.html",
     "title": "Matplotlib Tool Module",
     "section": "",
-    "text": "Preamble",
+    "text": "Matplotlib Tool Module",
     "crumbs": [
-      "Preamble"
+      "Matplotlib Tool Module"
     ]
   },
   {
-    "objectID": "index.html#voraussetzungen",
-    "href": "index.html#voraussetzungen",
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
     "title": "Matplotlib Tool Module",
-    "section": "Voraussetzungen",
-    "text": "Voraussetzungen\n\nPython basics\nImporting additional packages",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nPython basics\nImporting additional packages",
     "crumbs": [
-      "Preamble"
+      "Matplotlib Tool Module"
     ]
   },
   {
-    "objectID": "index.html#verwendete-pakete-und-datensätze",
-    "href": "index.html#verwendete-pakete-und-datensätze",
+    "objectID": "index.html#packages-and-datasets-used",
+    "href": "index.html#packages-and-datasets-used",
     "title": "Matplotlib Tool Module",
-    "section": "Verwendete Pakete und Datensätze",
-    "text": "Verwendete Pakete und Datensätze\n\nmatplotlib",
+    "section": "Packages and Datasets Used",
+    "text": "Packages and Datasets Used\n\nmatplotlib",
     "crumbs": [
-      "Preamble"
+      "Matplotlib Tool Module"
     ]
   },
   {
-    "objectID": "index.html#bearbeitungszeit",
-    "href": "index.html#bearbeitungszeit",
+    "objectID": "index.html#estimated-time",
+    "href": "index.html#estimated-time",
     "title": "Matplotlib Tool Module",
-    "section": "Bearbeitungszeit",
-    "text": "Bearbeitungszeit\nGeschätzte Bearbeitungszeit: 1h",
+    "section": "Estimated Time",
+    "text": "Estimated Time\nEstimated time: 1h",
     "crumbs": [
-      "Preamble"
+      "Matplotlib Tool Module"
     ]
   },
   {
-    "objectID": "index.html#lernziele",
-    "href": "index.html#lernziele",
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
     "title": "Matplotlib Tool Module",
-    "section": "Lernziele",
-    "text": "Lernziele\n\nIntroduction: how to visualize data in Python\nCustomizing plots\nDo’s & Don’ts for scientific plots",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nIntroduction: how to visualize data in Python\nCustomizing plots\nDo’s & Don’ts for scientific plots",
     "crumbs": [
-      "Preamble"
+      "Matplotlib Tool Module"
     ]
   },
   {
@@ -144,7 +144,7 @@
     "href": "skript/basic_plot_types.html#box-plots-plt.boxplot",
     "title": "2  Plot Types in Matplotlib",
     "section": "2.5 5. Box Plots (plt.boxplot())",
-    "text": "2.5 5. Box Plots (plt.boxplot())\nBox plots help visualize outliers and data distribution.\n\ndata = [np.random.randn(100) for _ in range(4)]\nplt.boxplot(data, labels=['A', 'B', 'C', 'D'])\nplt.ylabel('Value')\nplt.title('Box Plot')\nplt.show()\n\n/tmp/ipykernel_3862/3930898833.py:2: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.\n  plt.boxplot(data, labels=['A', 'B', 'C', 'D'])",
+    "text": "2.5 5. Box Plots (plt.boxplot())\nBox plots help visualize outliers and data distribution.\n\ndata = [np.random.randn(100) for _ in range(4)]\nplt.boxplot(data, tick_labels=['A', 'B', 'C', 'D'])\nplt.ylabel('Value')\nplt.title('Box Plot')\nplt.show()",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Plot Types in Matplotlib</span>"
     ]
