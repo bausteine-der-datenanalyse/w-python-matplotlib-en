@@ -65,7 +65,7 @@ Box plots help visualize outliers and data distribution.
 
 ```{python}
 data = [np.random.randn(100) for _ in range(4)]
-plt.boxplot(data, labels=['A', 'B', 'C', 'D'])
+plt.boxplot(data, tick_labels=['A', 'B', 'C', 'D'])
 plt.ylabel('Value')
 plt.title('Box Plot')
 plt.show()
