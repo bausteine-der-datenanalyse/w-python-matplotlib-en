@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Anwendungsbaustein - Auswertung von fds-Daten",
+    "title": "Matplotlib Tool Module",
     "section": "",
     "text": "Preamble",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#voraussetzungen",
     "href": "index.html#voraussetzungen",
-    "title": "Anwendungsbaustein - Auswertung von fds-Daten",
+    "title": "Matplotlib Tool Module",
     "section": "Voraussetzungen",
     "text": "Voraussetzungen\n\nPython basics\nImporting additional packages",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#verwendete-pakete-und-datensätze",
     "href": "index.html#verwendete-pakete-und-datensätze",
-    "title": "Anwendungsbaustein - Auswertung von fds-Daten",
+    "title": "Matplotlib Tool Module",
     "section": "Verwendete Pakete und Datensätze",
     "text": "Verwendete Pakete und Datensätze\n\nmatplotlib",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#bearbeitungszeit",
     "href": "index.html#bearbeitungszeit",
-    "title": "Anwendungsbaustein - Auswertung von fds-Daten",
+    "title": "Matplotlib Tool Module",
     "section": "Bearbeitungszeit",
     "text": "Bearbeitungszeit\nGeschätzte Bearbeitungszeit: 1h",
     "crumbs": [
@@ -42,7 +42,7 @@
   {
     "objectID": "index.html#lernziele",
     "href": "index.html#lernziele",
-    "title": "Anwendungsbaustein - Auswertung von fds-Daten",
+    "title": "Matplotlib Tool Module",
     "section": "Lernziele",
     "text": "Lernziele\n\nIntroduction: how to visualize data in Python\nCustomizing plots\nDo’s & Don’ts for scientific plots",
     "crumbs": [
